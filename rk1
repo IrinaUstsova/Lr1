@@ -1,0 +1,79 @@
+#include <iostream>
+#include <string.h>
+#include <stdlib.h>
+
+using namespace std;
+
+int main() {
+
+    "CKTDMKMCJTUCBLCDGQJJCTCBCJBOANPCDCJBGTBCKAUADBAGTDNRTGEAJBUCBLMICKTDMKMMHRTJBCDAQGMVATDGQJJCTRMUTBANYCRMPABAGJPCIGMPPMJUMFTDNTVVGMXCPTBARLYCRMPABAGJPCIGMPLTGMJRTKRKRTNCPCGTDNYMJBGMPTCKTDMKMOTJTVMVQRTBCMDMITJMIBOAUADJQJPTYCDECBBOABORTGEAJBUCBLCDGQJJCTQDBCRCBFTJVGAKCMQJRLYDMFDTJCKTDMKMKMWDAJADJYBOAUCBLRCAJMDBOAQKMNGCKAGCDBOAUADBGAMIBOAAVMDLPMQJMHRTJBCKTDMKMETCDANUCBLJBTBQJCDTDNAPAGEANTJTPTZMGUADBGAIMGBAXBCRAVGMNQUBCMDBOAUCBLCJJAGKANHLCKTDMKMLQWODLTCGVMGBBOAUCBLCJICGJBPADBCMDANCDFOADCBFTJECKADBMBOAUOAGYTJJYLVGCDUARLITPCRLHLCKTDCKTIBAGBOARTBBAGJPTGGCTEABMPTGCTUOAGYTJJYTLTOMFAKAGBOAGARAKTDBNMUQPADBOTJJCDUAHAADRMJBBOPMNAGDUCBLFTJUGATBANHPAGECDEBOAMRNIRTXVGMUAJJCDEKCRRTEACKTDMKMFCBOBOACDNQJBGCTRKMWDAJADJYLVMJTNCDLTYMKETGARCDTVTBGMDMITGBJOCJBMGCTDPTDQITUBQGAGTDNVQHRCUICEQGACJUMDJCNAGANBMHABOAIMQDNAGMIBOAUCBLTDNCBJJAUMDNOATNQDNAGOCJEMKAGDPADBBOAUCBLHAETDBMNAKARMVCDNQJBGCTRCJATDNEGMFQDBCRBOAMIICUCTRDTPAMIBOAUCBLFTJCKTDMKMKMWDAJADJYHAUTQJAMICBJBAXBCRAPTDQITUBQGCDECDNQJBGLCKTDMKMATGDANBOAJMHGCSQABMIBOAGQJJCTDPTDUOAJBAGNQGCDEBOABOUADBQGLHLBOAATGRLBOUADBQGLCKTDMKMFTJUMPVABCDEFCBOTRJMTVTGBMIBOAGQJJCTDAPVCGATBBOTBBCPAIMGBOABCBRAMIBOAVGCPTGLBAXBCRVGMNQUBCMD UADBAGMIAQGMVATJBOAFMGYAGJRCKCDEUMDNCBCMDJFAGATVVTRRCDEBOAJBGCYAJFAGAIGASQADBMDAMIBOAJAJBGCYAJPTLZQRLRANBMBOAICGJBGQJJCTDGAKMRQBCMDTUUMGNCDEBMBOAJMKCABOCJBMGCMEGTVOLBOACKTDMKMJMKCABUGATBANMDPTLFTJMDAMIBOAICGJBJMKCABJCDOCJBMGLOMFAKAGBOCJJBTBAPADBCJUMDBAJBAN"
+
+
+
+                            AnsiString s;
+                            s=Memo1->Text;
+                            int i=1;
+                            float a=0,b=0,c=0,d=0,e=0,f=0,g=0,h=0,j=0,k=0,
+                                    l=0,m=0,n=0,o=0,p=0,q=0,r=0,sa=0,t=0,u=0,
+                                    v=0,w=0,x=0,y=0,z=0;
+                            while (i<s.Length())
+                            {
+                                f (s[i] == 'A') a++;
+                                if (s[i] == 'B') b++;
+                                if (s[i] == 'C') c++;
+                                if (s[i] == 'D') d++;
+                                if (s[i] == 'E') e++;
+                                if (s[i] == 'F') f++;
+                                if (s[i] == 'G') g++;
+                                if (s[i] == 'I') i++;
+                                if (s[i] == 'H') h++;
+                                if (s[i] == 'J') j++;
+                                if (s[i] == 'K') k++;
+                                if (s[i] == 'L') l++;
+                                if (s[i] == 'M') m++;
+                                if (s[i] == 'N') n++;
+                                if (s[i] == 'O') o++;
+                                if (s[i] == 'P') p++;
+                                if (s[i] == 'Q') q++;
+                                if (s[i] == 'R') r++;
+                                if (s[i] == 'S') sa++;
+                                if (s[i] == 'T') t++;
+                                if (s[i] == 'U') u++;
+                                if (s[i] == 'V') v++;
+                                if (s[i] == 'W') w++;
+                                if (s[i] == 'X') x++;
+                                if (s[i] == 'Y') y++;
+                                if (s[i] == 'Z') z++;
+
+                                i++;
+                            }
+
+                            Edit1->Text=a/s.Length();
+                            Edit2->Text=b/s.Length();
+                            Edit3->Text=c/s.Length();
+                            Edit4->Text=d/s.Length();
+                            Edit5->Text=e/s.Length();
+                            Edit6->Text=f/s.Length();
+                            Edit7->Text=g/s.Length();
+                            Edit8->Text=h/s.Length();
+                            Edit9->Text=j/s.Length();
+                            Edit10->Text=k/s.Length();
+
+                            Edit11->Text=l/s.Length();
+                            Edit12->Text=m/s.Length();
+                            Edit13->Text=n/s.Length();
+                            Edit14->Text=o/s.Length();
+                            Edit15->Text=p/s.Length();
+                            Edit16->Text=q/s.Length();
+                            Edit17->Text=r/s.Length();
+                            Edit18->Text=sa/s.Length();
+                            Edit19->Text=t/s.Length();
+                            Edit20->Text=u/s.Length();
+
+                            Edit21->Text=v/s.Length();
+                            Edit22->Text=w/s.Length();
+                            Edit23->Text=x/s.Length();
+                            Edit24->Text=y/s.Length();
+                            Edit25->Text=z/s.Length();
+                            
+                        }
