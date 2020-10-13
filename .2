@@ -1,0 +1,56 @@
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+    std::cout << "Hello, ";
+    int x;
+    std::cout << "Enter x:";
+    std:: cin >> x;
+    int s=3*pow(x,5)+3*pow(x,3)-1;
+    std::cout << s<<endl;
+
+    unsigned long int a;
+    std::cout << "Enter a:";
+    std:: cin >> a;
+    int t=2*abs(a)+sqrt(4+3*a);
+    std::cout << t<< endl;
+
+    bool k,l,m,n;
+    std::cout << "Enter k:";
+    std:: cin >> k;
+    std::cout << "Enter l:";
+    std:: cin >> l;
+    std::cout << "Enter m:";
+    std:: cin >> m;
+    std::cout << "Enter n:";
+    std:: cin >> n;
+    std::cout<<(n||(m^!k)&&!l)<<endl;
+
+    int a;
+    int b;
+    std::cout<< "Enter b:";
+    std::cin>>b;
+    a=pow(2,b);
+    std::cout<<a<<std::endl;
+    std::cout<<std::oct<<a<<std::endl;
+
+    unsigned short int c;
+    unsigned short int d;
+    unsigned short int e;
+    unsigned short int f;
+    unsigned short int a;
+    std::cout << "Enter c:";
+    std::cin >>c;
+    std::cout << "Enter d:";
+    std::cin >>d;
+    std::cout << "Enter e:";
+    std::cin >>e;
+    std::cout << "Enter f:";
+    std::cin >>f;
+    a=(!(c||d))&&(e^f);
+    std::cout<<a<<std::endl;
+    std::cout<<std::hex<<a<<std::endl;
+
+    return 0;
+}
